@@ -30,27 +30,27 @@ msgstr ""
 #: model:ir.actions.act_window,name:account_direct_debit.action_debit_order_tree
 #: model:ir.ui.menu,name:account_direct_debit.menu_action_debit_order_form
 msgid "Direct Debit Orders"
-msgstr ""
+msgstr "Ordini di Addebito Diretto"
 
 #. module: account_direct_debit
 #: model:account.payment.term,name:account_direct_debit.payment_term_direct_debit
 msgid "Direct debit"
-msgstr "Direct debit"
+msgstr "Addebito Diretto"
 
 #. module: account_direct_debit
 #: model:account.payment.term,note:account_direct_debit.payment_term_direct_debit
 msgid "Direct debit in 14 days"
-msgstr ""
+msgstr "Addebito diretto in 14 giorni."
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "Invoices"
-msgstr ""
+msgstr "Fatture"
 
 #. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_account_move_line
 msgid "Journal Items"
-msgstr ""
+msgstr "Registrazioni Sezionali"
 
 #. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_payment_line
@@ -60,7 +60,7 @@ msgstr "Linea ordine pagamento"
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "Select invoices to collect"
-msgstr ""
+msgstr "Seleziona fatture da riscuotere"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
