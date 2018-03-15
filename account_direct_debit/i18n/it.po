@@ -1,14 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * account_direct_debit
-# 
+#	* account_direct_debit
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: bank-payment (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-15 18:11+0000\n"
-"PO-Revision-Date: 2016-04-06 00:15+0000\n"
+"POT-Creation-Date: 2018-03-15 16:51+0000\n"
+"PO-Revision-Date: 2018-03-15 16:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-bank-payment-8-0/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -19,12 +19,13 @@ msgstr ""
 
 #. module: account_direct_debit
 #: model:ir.actions.act_window,help:account_direct_debit.action_debit_order_tree
-msgid ""
-"A debit order is a debit request from your company to collect customer "
-"invoices. Here you can register all debit orders that should be done, keep "
-"track of all debit orders and mention the invoice reference and the partner "
-"the withdrawal should be done for."
-msgstr ""
+msgid "A debit order is a debit request from your company to collect customer invoices. Here you can register all debit orders that should be done, keep track of all debit orders and mention the invoice reference and the partner the withdrawal should be done for."
+msgstr "Un ordine di addebito è una richiesta di addebito dalla tua azienda per incassare fatture clienti. Qui puoi registrare tutti gli ordini di addebito che dovrebbero essere fatti, tieni traccia di tutti gli ordini di addebito e i riferimenti alle fatture e agli prelievi clienti che dovrebbero essere eseguiti per tuo conto."
+
+#. module: account_direct_debit
+#: field:payment.line,bank_line_id:0
+msgid "Bank Payment Line"
+msgstr "Linea di Pagamento"
 
 #. module: account_direct_debit
 #: model:ir.actions.act_window,name:account_direct_debit.action_debit_order_tree
@@ -43,6 +44,16 @@ msgid "Direct debit in 14 days"
 msgstr "Addebito diretto in 14 giorni."
 
 #. module: account_direct_debit
+#: selection:payment.order.create,date_type:0
+msgid "Due Date"
+msgstr "Data di scadenza"
+
+#. module: account_direct_debit
+#: model:ir.model,name:account_direct_debit.model_account_invoice
+msgid "Invoice"
+msgstr "Fattura"
+
+#. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "Invoices"
 msgstr "Fatture"
@@ -53,9 +64,35 @@ msgid "Journal Items"
 msgstr "Registrazioni Sezionali"
 
 #. module: account_direct_debit
+#: field:payment.order.create,journal_ids:0
+msgid "Journals Filter"
+msgstr "Filtro Sezionale"
+
+#. module: account_direct_debit
+#: field:payment.order.create,invoice:0
+msgid "Linked to an Invoice or Refund"
+msgstr "Collegata a una fattura o nota credito"
+
+#. module: account_direct_debit
+#: selection:payment.order.create,date_type:0
+#: field:payment.order.create,move_date:0
+msgid "Move Date"
+msgstr "Data Registrazione"
+
+#. module: account_direct_debit
+#: field:payment.order.create,partner_ids:0
+msgid "Partners"
+msgstr "Partner"
+
+#. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_payment_line
 msgid "Payment Line"
-msgstr "Linea ordine pagamento"
+msgstr "Riga pagamento"
+
+#. module: account_direct_debit
+#: model:ir.model,name:account_direct_debit.model_payment_order
+msgid "Payment Order"
+msgstr "Ordine di pagamento"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
@@ -63,13 +100,17 @@ msgid "Select invoices to collect"
 msgstr "Seleziona fatture da riscuotere"
 
 #. module: account_direct_debit
-#: view:payment.order:account_direct_debit.view_payment_order_form
-msgid "[('payment_order_type', '=', payment_order_type)]"
-msgstr ""
+#: field:payment.order.create,date_type:0
+msgid "Type of Date Filter"
+msgstr "Filtra tipo di date"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
-msgid ""
-"{'invisible': ['|', ('state', '!=', 'draft'), ('payment_order_type', '!=', "
-"'payment')]}"
-msgstr ""
+msgid "[('payment_order_type', '=', payment_order_type)]"
+msgstr "[('payment_order_type', '=', payment_order_type)]"
+
+#. module: account_direct_debit
+#: view:payment.order:account_direct_debit.view_payment_order_form
+msgid "{'invisible': ['|', ('state', '!=', 'draft'), ('payment_order_type', '!=', 'payment')]}"
+msgstr "{'invisible': ['|', ('state', '!=', 'draft'), ('payment_order_type', '!=', 'payment')]}"
+

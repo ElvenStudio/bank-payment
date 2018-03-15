@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-31 23:05+0000\n"
-"PO-Revision-Date: 2014-10-31 23:05+0000\n"
+"POT-Creation-Date: 2018-03-15 16:51+0000\n"
+"PO-Revision-Date: 2018-03-15 16:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,30 +21,8 @@ msgid "A debit order is a debit request from your company to collect customer in
 msgstr ""
 
 #. module: account_direct_debit
-#: field:account.move.line,amount_to_receive:0
-msgid "Amount to receive"
-msgstr ""
-
-#. module: account_direct_debit
-#: code:addons/account_direct_debit/models/payment_line.py:133
-#, python-format
-msgid "Can not reconcile"
-msgstr ""
-
-#. module: account_direct_debit
-#: code:addons/account_direct_debit/models/payment_line.py:134
-#, python-format
-msgid "Cancelation of payment line '%s' has already been processed"
-msgstr ""
-
-#. module: account_direct_debit
-#: view:account.invoice:account_direct_debit.invoice_form
-msgid "Debit Denied"
-msgstr ""
-
-#. module: account_direct_debit
-#: view:account.invoice:account_direct_debit.view_account_invoice_filter
-msgid "Debit denied"
+#: field:payment.line,bank_line_id:0
+msgid "Bank Payment Line"
 msgstr ""
 
 #. module: account_direct_debit
@@ -64,25 +42,13 @@ msgid "Direct debit in 14 days"
 msgstr ""
 
 #. module: account_direct_debit
-#: code:addons/account_direct_debit/models/account_invoice.py:149
-#, python-format
-msgid "Error !"
-msgstr ""
-
-#. module: account_direct_debit
-#: help:payment.line,storno:0
-msgid "If this is true, the debit order has been canceled by the bank or by the customer"
+#: selection:payment.order.create,date_type:0
+msgid "Due Date"
 msgstr ""
 
 #. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_account_invoice
 msgid "Invoice"
-msgstr ""
-
-#. module: account_direct_debit
-#: code:addons/account_direct_debit/models/account_invoice.py:154
-#, python-format
-msgid "Invoice '%s': direct debit is denied."
 msgstr ""
 
 #. module: account_direct_debit
@@ -93,6 +59,27 @@ msgstr ""
 #. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_account_move_line
 msgid "Journal Items"
+msgstr ""
+
+#. module: account_direct_debit
+#: field:payment.order.create,journal_ids:0
+msgid "Journals Filter"
+msgstr ""
+
+#. module: account_direct_debit
+#: field:payment.order.create,invoice:0
+msgid "Linked to an Invoice or Refund"
+msgstr ""
+
+#. module: account_direct_debit
+#: selection:payment.order.create,date_type:0
+#: field:payment.order.create,move_date:0
+msgid "Move Date"
+msgstr ""
+
+#. module: account_direct_debit
+#: field:payment.order.create,partner_ids:0
+msgid "Partners"
 msgstr ""
 
 #. module: account_direct_debit
@@ -111,17 +98,17 @@ msgid "Select invoices to collect"
 msgstr ""
 
 #. module: account_direct_debit
-#: view:account.invoice:account_direct_debit.view_account_invoice_filter
-msgid "Show only invoices with state Debit denied"
+#: field:payment.order.create,date_type:0
+msgid "Type of Date Filter"
 msgstr ""
 
 #. module: account_direct_debit
-#: field:payment.line,storno:0
-msgid "Storno"
+#: view:payment.order:account_direct_debit.view_payment_order_form
+msgid "[('payment_order_type', '=', payment_order_type)]"
 msgstr ""
 
 #. module: account_direct_debit
-#: code:addons/account_direct_debit/models/account_invoice.py:150
-#, python-format
-msgid "You cannot set invoice '%s' to state 'debit denied', as it is still reconciled."
+#: view:payment.order:account_direct_debit.view_payment_order_form
+msgid "{'invisible': ['|', ('state', '!=', 'draft'), ('payment_order_type', '!=', 'payment')]}"
 msgstr ""
+
