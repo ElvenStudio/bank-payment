@@ -54,6 +54,16 @@ msgid "Find all receivable lines"
 msgstr "Cerca tutte le linee di pagamento"
 
 #. module: account_direct_debit
+#: selection:payment.order.create,date_type:0
+msgid "Due Date"
+msgstr "Data di scadenza"
+
+#. module: account_direct_debit
+#: model:ir.model,name:account_direct_debit.model_account_invoice
+msgid "Invoice"
+msgstr "Fattura"
+
+#. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "Invoices"
 msgstr "Fatture"
@@ -64,6 +74,27 @@ msgid "Journal Items"
 msgstr "Voci sezionale"
 
 #. module: account_direct_debit
+#: field:payment.order.create,journal_ids:0
+msgid "Journals Filter"
+msgstr "Filtro Sezionale"
+
+#. module: account_direct_debit
+#: field:payment.order.create,invoice:0
+msgid "Linked to an Invoice or Refund"
+msgstr "Collegata a una fattura o nota credito"
+
+#. module: account_direct_debit
+#: selection:payment.order.create,date_type:0
+#: field:payment.order.create,move_date:0
+msgid "Move Date"
+msgstr "Data Registrazione"
+
+#. module: account_direct_debit
+#: field:payment.order.create,partner_ids:0
+msgid "Partners"
+msgstr "Partner"
+
+#. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_payment_line
 msgid "Payment Line"
 msgstr "Riga pagamento"
@@ -72,6 +103,11 @@ msgstr "Riga pagamento"
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "Select invoices to collect"
 msgstr "Seleziona le fatture da pagare"
+
+#. module: account_direct_debit
+#: field:payment.order.create,date_type:0
+msgid "Type of Date Filter"
+msgstr "Filtra tipo di date"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
