@@ -1,14 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * account_banking_sepa_direct_debit
-# 
+#	* account_banking_sepa_direct_debit
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: bank-payment (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-11 00:27+0000\n"
-"PO-Revision-Date: 2017-02-17 15:46+0000\n"
+"POT-Creation-Date: 2018-03-15 17:05+0000\n"
+"PO-Revision-Date: 2018-03-15 17:05+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-bank-payment-8-0/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -19,15 +19,13 @@ msgstr ""
 
 #. module: account_banking_sepa_direct_debit
 #: model:ir.actions.act_window,help:account_banking_sepa_direct_debit.mandate_action
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "        Click to create a new SEPA Direct Debit Mandate.\n"
 "        </p><p>\n"
 "        A SEPA Direct Debit Mandate is a document signed by your customer that gives you the autorization to do one or several direct debits on his bank account.\n"
 "        </p>\n"
 "    "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "        Clicca per creare un nuovo Mandato SEPA Direct Debit.\n"
 "        </p><p>\n"
 "        Un mandato SEPA Direct Debit è un documento firmato dal tuo cliente che autorizza a uno o più addebiti diretti sul suo conto corrente.\n"
@@ -41,19 +39,15 @@ msgstr "Un mandato bancario generico"
 
 #. module: account_banking_sepa_direct_debit
 #: view:website:account_banking_sepa_direct_debit.sepa_direct_debit_mandate_document
-msgid ""
-"ALL GAPS ARE MANDATORY. ONCE THIS MANDATE HAS BEEN SIGNED MUST BE SENT TO "
-"CREDITOR FOR STORAGE."
-msgstr ""
+msgid "ALL GAPS ARE MANDATORY. ONCE THIS MANDATE HAS BEEN SIGNED MUST BE SENT TO CREDITOR FOR STORAGE."
+msgstr "TUTTI I RIQUADRI SONO OBBLIGATORI. nON APPENA QUESTO MANDATO VIENE FIRMATO DEVE ESSERE INVIATO AL CREDITORE PER LA CONSERVAZIONE."
 
 #. module: account_banking_sepa_direct_debit
 #: view:website:account_banking_sepa_direct_debit.sepa_direct_debit_mandate_document
-msgid ""
-"ALL GAPS ARE MANDATORY. ONCE THIS MANDATE HAS BEEN SIGNED MUST BE SENT TO CREDITOR FOR STORAGE.\n"
+msgid "ALL GAPS ARE MANDATORY. ONCE THIS MANDATE HAS BEEN SIGNED MUST BE SENT TO CREDITOR FOR STORAGE.\n"
 "                        NEVERTHELESS, THE BANK OF DEBTOR REQUIRES DEBTOR’S AUTHORIZATION BEFORE DEBITING B2B DIRECT DEBITS IN THE ACCOUNT.\n"
 "                        THE DEBTOR WILL BE ABLE TO MANAGE THE MENTIONED AUTHORIZATION THROUGH THE MEANS PROVIDED BY HIS BANK."
-msgstr ""
-"TUTTI GLI SPAZI VUOTI SONO OBBLIGATORI. UNA VOLTA FIRMATO QUESTO MANDATA DEVE ESSERE INVIATO AL CREDITORE PER CONSERVARNE UNA COPIA.\n"
+msgstr "TUTTI GLI SPAZI VUOTI SONO OBBLIGATORI. UNA VOLTA FIRMATO QUESTO MANDATA DEVE ESSERE INVIATO AL CREDITORE PER CONSERVARNE UNA COPIA.\n"
 "                        CIO' NONOSTANTE, LA BANCA DEL DEBITORE RICHIEDE UN'AUTORIZZAZIONE DAL DEBITORE PRIMA DI EFFETTUARE ADDEBITI SUL CONTO.\n"
 "                        IL DEBITORE SARA' IN GRADO DI GESTIRE LA SUDDETTA AUTORIZZAZIONE ATTRAVERSO I MEZZI FORNITI DALLA PROPRIA BANCA."
 
@@ -74,13 +68,11 @@ msgstr "Indirizzo"
 
 #. module: account_banking_sepa_direct_debit
 #: view:website:account_banking_sepa_direct_debit.sepa_direct_debit_mandate_document
-msgid ""
-"As part of your rights, you are entitled to a refund from\n"
+msgid "As part of your rights, you are entitled to a refund from\n"
 "                        your bank under the terms and conditions of your agreement\n"
 "                        with your bank.\n"
 "                        A refund must be claimed within 8 weeks starting from the date on which your account was debited."
-msgstr ""
-"Come parte dei tuoi diritti, sei autorizzato al rimborso dalla\n"
+msgstr "Come parte dei tuoi diritti, sei autorizzato al rimborso dalla\n"
 "                        tua banca in accordo ai termini e condizioni accordati \n"
 "                        con la tua banca.\n"
 "                        Un rimborso deve essere reclamato entro 8 settimane a partire dalla data in cui il tuo conto riceve l'addebito."
@@ -88,12 +80,8 @@ msgstr ""
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/models/account_banking_mandate.py:77
 #, python-format
-msgid ""
-"As you changed the bank account attached to this mandate, the 'Sequence "
-"Type' has been set back to 'First'."
-msgstr ""
-"Non appena cambi il conto corrente collegato a questo mandato, il 'Tipo di Sequenza' "
-"viene reimpostato a 'Primo'."
+msgid "As you changed the bank account attached to this mandate, the 'Sequence Type' has been set back to 'First'."
+msgstr "Non appena cambi il conto corrente collegato a questo mandato, il 'Tipo di Sequenza' viene reimpostato a 'Primo'."
 
 #. module: account_banking_sepa_direct_debit
 #: model:ir.model,name:account_banking_sepa_direct_debit.model_bank_payment_line
@@ -103,7 +91,7 @@ msgstr "Linea ordine pagamento"
 #. module: account_banking_sepa_direct_debit
 #: selection:account.banking.mandate,scheme:0
 msgid "Basic (CORE)"
-msgstr ""
+msgstr "Basic (CORE)"
 
 #. module: account_banking_sepa_direct_debit
 #: field:banking.export.sdd.wizard,batch_booking:0
@@ -204,14 +192,12 @@ msgstr ""
 
 #. module: account_banking_sepa_direct_debit
 #: help:res.company,sepa_creditor_identifier:0
-msgid ""
-"Enter the Creditor Identifier that has been attributed to your company to make SEPA Direct Debits. This identifier is composed of :\n"
+msgid "Enter the Creditor Identifier that has been attributed to your company to make SEPA Direct Debits. This identifier is composed of :\n"
 "- your country ISO code (2 letters)\n"
 "- a 2-digits checkum\n"
 "- a 3-letters business code\n"
 "- a country-specific identifier"
-msgstr ""
-"Inserisci il Creditor Identifier che è stato attributio alla tua azienda per effettuare SEPA Direct Debits. L'identificativo è composto da:\n"
+msgstr "Inserisci il Creditor Identifier che è stato attributio alla tua azienda per effettuare SEPA Direct Debits. L'identificativo è composto da:\n"
 "- il tuo codice nazione ISO (2 lettere)\n"
 "- 2 digit di controllo\n"
 "- 3 lettere come codice business (default ZZZ) \n"
@@ -220,7 +206,7 @@ msgstr ""
 #. module: account_banking_sepa_direct_debit
 #: selection:account.banking.mandate,scheme:0
 msgid "Enterprise (B2B)"
-msgstr ""
+msgstr "Enterprise (B2B)"
 
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/models/payment_mode.py:38
@@ -237,7 +223,7 @@ msgstr "Esporta File SEPA Direct Debit"
 #. module: account_banking_sepa_direct_debit
 #: field:banking.export.sdd.wizard,file:0
 msgid "File"
-msgstr ""
+msgstr "File"
 
 #. module: account_banking_sepa_direct_debit
 #: field:banking.export.sdd.wizard,filename:0
@@ -247,7 +233,7 @@ msgstr "Nome file"
 #. module: account_banking_sepa_direct_debit
 #: selection:account.banking.mandate,recurrent_sequence_type:0
 msgid "Final"
-msgstr ""
+msgstr "Finale"
 
 #. module: account_banking_sepa_direct_debit
 #: selection:banking.export.sdd.wizard,state:0
@@ -262,25 +248,12 @@ msgstr "Primo"
 #. module: account_banking_sepa_direct_debit
 #: selection:banking.export.sdd.wizard,charge_bearer:0
 msgid "Following Service Level"
-msgstr ""
+msgstr "Seguendo le regole del servizio"
 
 #. module: account_banking_sepa_direct_debit
 #: help:banking.export.sdd.wizard,charge_bearer:0
-msgid ""
-"Following service level : transaction charges are to be applied following "
-"the rules agreed in the service level and/or scheme (SEPA Core messages must"
-" use this). Shared : transaction charges on the creditor side are to be "
-"borne by the creditor, transaction charges on the debtor side are to be "
-"borne by the debtor. Borne by creditor : all transaction charges are to be "
-"borne by the creditor. Borne by debtor : all transaction charges are to be "
-"borne by the debtor."
-msgstr ""
-"Following service level: le spese di transazione sono applicate seguendo "
-"le regole accettate nel servizio e/o nello schema (SEPA Core deve usare questo)."
-"Condivisa: le spese di transazione sul creditore sono a pagate del creditore, "
-"le transazioni a carico del debitore sono pagate dal debitore. "
-"A carico del Creditore: tutte le spese di transazione sono a carico del creditore. "
-"A carico del Debitore: tutte le transazioni sono a carico del debitore."
+msgid "Following service level : transaction charges are to be applied following the rules agreed in the service level and/or scheme (SEPA Core messages must use this). Shared : transaction charges on the creditor side are to be borne by the creditor, transaction charges on the debtor side are to be borne by the debtor. Borne by creditor : all transaction charges are to be borne by the creditor. Borne by debtor : all transaction charges are to be borne by the debtor."
+msgstr "Following service level: le spese di transazione sono applicate seguendo le regole accettate nel servizio e/o nello schema (SEPA Core deve usare questo).Condivisa: le spese di transazione sul creditore sono a pagate del creditore, le transazioni a carico del debitore sono pagate dal debitore. A carico del Creditore: tutte le spese di transazione sono a carico del creditore. A carico del Debitore: tutte le transazioni sono a carico del debitore."
 
 #. module: account_banking_sepa_direct_debit
 #: view:banking.export.sdd.wizard:account_banking_sepa_direct_debit.banking_export_sdd_wizard_view
@@ -299,14 +272,8 @@ msgstr "Identificativo:"
 
 #. module: account_banking_sepa_direct_debit
 #: help:banking.export.sdd.wizard,batch_booking:0
-msgid ""
-"If true, the bank statement will display only one credit line for all the "
-"direct debits of the SEPA file ; if false, the bank statement will display "
-"one credit line per direct debit of the SEPA file."
-msgstr ""
-"Se impostato, la riga di estratto conto bancario mostrerà solo una linea di credito per tutti gli "
-"addebiti diretti del file SEPA; se non è impostato, l'estratto conto mostrerà "
-"una linea di credito per ogni addebito diretto del file SEPA."
+msgid "If true, the bank statement will display only one credit line for all the direct debits of the SEPA file ; if false, the bank statement will display one credit line per direct debit of the SEPA file."
+msgstr "Se impostato, la riga di estratto conto bancario mostrerà solo una linea di credito per tutti gli addebiti diretti del file SEPA; se non è impostato, l'estratto conto mostrerà una linea di credito per ogni addebito diretto del file SEPA."
 
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/models/payment_mode.py:39
@@ -344,12 +311,8 @@ msgstr "Aggiornamento Mandato"
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/wizard/export_sdd.py:159
 #, python-format
-msgid ""
-"Missing SEPA Direct Debit mandate on the bank payment line with partner '%s'"
-" (reference '%s')."
-msgstr ""
-"Mandato SEPA Direct Debit mancante sulla linea del pagamento con partner '%s'"
-" (rif. '%s')."
+msgid "Missing SEPA Direct Debit mandate on the bank payment line with partner '%s' (reference '%s')."
+msgstr "Mandato SEPA Direct Debit mancante sulla linea del pagamento con partner '%s' (rif. '%s')."
 
 #. module: account_banking_sepa_direct_debit
 #: field:banking.export.sdd.wizard,nb_transactions:0
@@ -366,7 +329,7 @@ msgstr "Singola"
 #. module: account_banking_sepa_direct_debit
 #: model:ir.model,name:account_banking_sepa_direct_debit.model_payment_mode
 msgid "Payment Mode"
-msgstr "Modo di pagamento"
+msgstr "Modalità Pagamento"
 
 #. module: account_banking_sepa_direct_debit
 #: field:banking.export.sdd.wizard,payment_order_ids:0
@@ -376,11 +339,8 @@ msgstr "Ordini di Pagamento"
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/wizard/export_sdd.py:117
 #, python-format
-msgid ""
-"Payment Type Code '%s' is not supported. The only Payment Type Code "
-"supported for SEPA Direct Debit are 'pain.008.001.02', 'pain.008.001.03' and"
-" 'pain.008.001.04'."
-msgstr ""
+msgid "Payment Type Code '%s' is not supported. The only Payment Type Code supported for SEPA Direct Debit are 'pain.008.001.02', 'pain.008.001.03' and 'pain.008.001.04'."
+msgstr "Il tipo di pagamento con codice '%s' non è supportato. I codici di pagamento supportati per l'addebito diretto SEPA sono 'pain.008.001.02', 'pain.008.001.03' and 'pain.008.001.04'."
 
 #. module: account_banking_sepa_direct_debit
 #: view:website:account_banking_sepa_direct_debit.sepa_direct_debit_mandate_document
@@ -403,10 +363,9 @@ msgstr "Ricorrente"
 #: view:res.partner:account_banking_sepa_direct_debit.sdd_mandate_partner_form
 #: view:res.partner.bank:account_banking_sepa_direct_debit.sdd_mandate_partner_bank_tree
 msgid "SDD Mandates"
-msgstr "SDD Mandati"
+msgstr "Mandati SDD"
 
 #. module: account_banking_sepa_direct_debit
-#: field:payment.mode,sepa_creditor_identifier:0
 #: field:res.company,sepa_creditor_identifier:0
 msgid "SEPA Creditor Identifier"
 msgstr "SEPA Creditor Identifier"
@@ -486,7 +445,7 @@ msgstr "Firma del debitore:"
 #. module: account_banking_sepa_direct_debit
 #: field:banking.export.sdd.wizard,state:0
 msgid "State"
-msgstr "Stato"
+msgstr "State"
 
 #. module: account_banking_sepa_direct_debit
 #: view:website:account_banking_sepa_direct_debit.sepa_direct_debit_mandate_document
@@ -496,21 +455,14 @@ msgstr "Swift BIC (fino a 8 o 11 caratteri):"
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/wizard/export_sdd.py:166
 #, python-format
-msgid ""
-"The SEPA Direct Debit mandate with reference '%s' for partner '%s' has "
-"expired."
-msgstr ""
-"Il mandato SEPA Direct Debit con riferimento '%s' per il partner '%s' è scaduto."
+msgid "The SEPA Direct Debit mandate with reference '%s' for partner '%s' has expired."
+msgstr "Il mandato SEPA Direct Debit con riferimento '%s' per il partner '%s' è scaduto."
 
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/wizard/export_sdd.py:174
 #, python-format
-msgid ""
-"The mandate with reference '%s' for partner '%s' has type set to 'One-Off' "
-"and it has a last debit date set to '%s', so we can't use it."
-msgstr ""
-"Il mandato con riferimento '%s' per il partner '%s' ha il tipo 'Singola' "
-"ed ha l'ultima data di addebito impostata a '%s', quindi non puoi usarla."
+msgid "The mandate with reference '%s' for partner '%s' has type set to 'One-Off' and it has a last debit date set to '%s', so we can't use it."
+msgstr "Il mandato con riferimento '%s' per il partner '%s' ha il tipo 'Singola' ed ha l'ultima data di addebito impostata a '%s', quindi non puoi usarla."
 
 #. module: account_banking_sepa_direct_debit
 #: code:addons/account_banking_sepa_direct_debit/models/account_banking_mandate.py:61
@@ -520,20 +472,16 @@ msgstr "Il mandato ricorrente '%s' deve avere un tipo di sequenza."
 
 #. module: account_banking_sepa_direct_debit
 #: help:account.banking.mandate,recurrent_sequence_type:0
-msgid ""
-"This field is only used for Recurrent mandates, not for One-Off mandates."
-msgstr ""
-"Questo campo è solo usato per mandati ricorrenti, non per mandati singoli."
+msgid "This field is only used for Recurrent mandates, not for One-Off mandates."
+msgstr "Questo campo è solo usato per mandati ricorrenti, non per mandati singoli."
 
 #. module: account_banking_sepa_direct_debit
 #: view:website:account_banking_sepa_direct_debit.sepa_direct_debit_mandate_document
-msgid ""
-"This mandate is only intended for business-to-business transactions.\n"
+msgid "This mandate is only intended for business-to-business transactions.\n"
 "                        You are not entitled to a refund from your bank after your account has\n"
 "                        been debited, but you are entitled to request your bank\n"
 "                        not to debit your account up until the day on which the payment is due."
-msgstr ""
-"Questo mandato è previsto solo per transazioni business-to-business.\n"
+msgstr "Questo mandato è previsto solo per transazioni business-to-business.\n"
 "                        Non sei autorizzato ad un rimborso  dalla tua banca dopo un addebito sul tuo conto,\n"
 "                        ma sei autorizzati a richiedere alla tua banca di non\n"
 "                        addebitare sul tuo conto fino alla data in cui il pagamento non è scaduto."
@@ -576,7 +524,8 @@ msgstr "Valida"
 
 #. module: account_banking_sepa_direct_debit
 #: view:website:account_banking_sepa_direct_debit.sepa_direct_debit_mandate_document
-msgid ""
-"to send instructions to your bank to debit your account and (B) your bank to\n"
+msgid "to send instructions to your bank to debit your account and (B) your bank to\n"
 "                       debit your account in accordance with the instructions from"
-msgstr ""
+msgstr "to send instructions to your bank to debit your account and (B) your bank to\n"
+"                       debit your account in accordance with the instructions from"
+
