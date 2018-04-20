@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="account_direct_debit_payment_order_create_form_view" model="ir.ui.view">
+            <field name="name">account.direct.debit.payment.order.create.form.view</field>
+            <field name="model">payment.order.create</field>
+            <field name="inherit_id" ref="account_banking_payment_export.view_create_payment_order"/>
+            <field name="arch" type="xml">
+                <field name="populate_results" position="after">
+                    <field name="find_all_receivable_lines" />
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
