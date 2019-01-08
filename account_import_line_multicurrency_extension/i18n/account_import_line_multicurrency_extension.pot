@@ -6,8 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-14 14:13+0000\n"
-"PO-Revision-Date: 2015-07-14 14:13+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: account_import_line_multicurrency_extension
-#: code:addons/account_import_line_multicurrency_extension/models/bank_statement.py:41
+#: code:addons/account_import_line_multicurrency_extension/models/bank_statement.py:42
 #, python-format
 msgid "Amount on line %s is not set. \n"
 ""
@@ -33,15 +31,25 @@ msgid "Bank Statement Line"
 msgstr ""
 
 #. module: account_import_line_multicurrency_extension
+#: help:account.bank.statement.line,currency_symbol:0
+msgid "Currency sign, to be used when printing amounts."
+msgstr ""
+
+#. module: account_import_line_multicurrency_extension
 #: model:ir.model,name:account_import_line_multicurrency_extension.model_account_statement_from_invoice_lines
 msgid "Entries by Statement from Invoices"
 msgstr ""
 
 #. module: account_import_line_multicurrency_extension
-#: code:addons/account_import_line_multicurrency_extension/models/bank_statement.py:44
+#: code:addons/account_import_line_multicurrency_extension/models/bank_statement.py:45
 #, python-format
 msgid "Error on bank statement: \n"
 " %s"
+msgstr ""
+
+#. module: account_import_line_multicurrency_extension
+#: field:account.bank.statement.line,currency_symbol:0
+msgid "Journal Currency"
 msgstr ""
 
 #. module: account_import_line_multicurrency_extension
