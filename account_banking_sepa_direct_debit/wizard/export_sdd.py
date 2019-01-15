@@ -233,6 +233,11 @@ class BankingExportSddWizard(models.TransientModel):
                     payment_info_2_0, 'DrctDbtTxInf')
                 payment_identification_2_29 = etree.SubElement(
                     dd_transaction_info_2_28, 'PmtId')
+                instruction_identification_2_30 = etree.SubElement(
+                    payment_identification_2_29, 'InstrId')
+                instruction_identification_2_30.text = self._prepare_field(
+                    'Instruction Identification', 'line.name',
+                    {'line': line}, 35, gen_args=gen_args)
                 end2end_identification_2_31 = etree.SubElement(
                     payment_identification_2_29, 'EndToEndId')
                 end2end_identification_2_31.text = self._prepare_field(
