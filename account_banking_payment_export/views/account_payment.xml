@@ -97,6 +97,9 @@
     <field name="inherit_id" ref="account_payment.view_payment_order_tree" />
     <field name="model">payment.order</field>
     <field name="arch" type="xml">
+        <field name="date_done" position="before">
+            <field name="date_scheduled"/>
+        </field>
         <field name="date_done" position="after">
             <field name="bank_line_count"/>
         </field>
