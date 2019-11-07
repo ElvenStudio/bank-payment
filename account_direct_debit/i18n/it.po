@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bank-payment (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-15 18:11+0000\n"
-"PO-Revision-Date: 2016-04-06 00:15+0000\n"
+"PO-Revision-Date: 2019-01-08 12:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-bank-payment-8-0/"
 "language/it/)\n"
@@ -26,51 +26,101 @@ msgid ""
 "track of all debit orders and mention the invoice reference and the partner "
 "the withdrawal should be done for."
 msgstr ""
+"Un ordine di addebito è una richiesta di addebito dalla tua azienda per "
+"richiedere i pagamenti delle fatture clienti. Qui puoi registrare tutti gli "
+"ordini di addebito che dovrebbero essere emessi, puoi tenere traccia delle "
+"fatture con i propri riferimenti e il partner per cui dovrebbe essere fatto "
+"il prelievo."
 
 #. module: account_direct_debit
 #: model:ir.actions.act_window,name:account_direct_debit.action_debit_order_tree
 #: model:ir.ui.menu,name:account_direct_debit.menu_action_debit_order_form
 msgid "Direct Debit Orders"
-msgstr ""
+msgstr "Ordini di addebito diretto"
 
 #. module: account_direct_debit
 #: model:account.payment.term,name:account_direct_debit.payment_term_direct_debit
 msgid "Direct debit"
-msgstr "Direct debit"
+msgstr "Addebito diretto"
 
 #. module: account_direct_debit
 #: model:account.payment.term,note:account_direct_debit.payment_term_direct_debit
 msgid "Direct debit in 14 days"
-msgstr ""
+msgstr "Addebito diretto in 14 giorni"
+
+#. module: account_direct_debit
+#: field:payment.order.create,find_all_receivable_lines:0
+msgid "Find all receivable lines"
+msgstr "Cerca tutte le linee di pagamento"
+
+#. module: account_direct_debit
+#: selection:payment.order.create,date_type:0
+msgid "Due Date"
+msgstr "Data di scadenza"
+
+#. module: account_direct_debit
+#: model:ir.model,name:account_direct_debit.model_account_invoice
+msgid "Invoice"
+msgstr "Fattura"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "Invoices"
-msgstr ""
+msgstr "Fatture"
 
 #. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_account_move_line
 msgid "Journal Items"
-msgstr ""
+msgstr "Voci sezionale"
+
+#. module: account_direct_debit
+#: field:payment.order.create,journal_ids:0
+msgid "Journals Filter"
+msgstr "Filtro Sezionale"
+
+#. module: account_direct_debit
+#: field:payment.order.create,invoice:0
+msgid "Linked to an Invoice or Refund"
+msgstr "Collegata a una fattura o nota credito"
+
+#. module: account_direct_debit
+#: selection:payment.order.create,date_type:0
+#: field:payment.order.create,move_date:0
+msgid "Move Date"
+msgstr "Data Registrazione"
+
+#. module: account_direct_debit
+#: field:payment.order.create,partner_ids:0
+msgid "Partners"
+msgstr "Partner"
 
 #. module: account_direct_debit
 #: model:ir.model,name:account_direct_debit.model_payment_line
 msgid "Payment Line"
-msgstr "Linea ordine pagamento"
+msgstr "Riga pagamento"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "Select invoices to collect"
-msgstr ""
+msgstr "Seleziona le fatture da pagare"
+
+#. module: account_direct_debit
+#: field:payment.order.create,date_type:0
+msgid "Type of Date Filter"
+msgstr "Filtra tipo di date"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
 msgid "[('payment_order_type', '=', payment_order_type)]"
-msgstr ""
+msgstr "[('payment_order_type', '=', payment_order_type)]"
 
 #. module: account_direct_debit
 #: view:payment.order:account_direct_debit.view_payment_order_form
-msgid ""
-"{'invisible': ['|', ('state', '!=', 'draft'), ('payment_order_type', '!=', "
-"'payment')]}"
-msgstr ""
+msgid "total_amount_currency"
+msgstr "total_amount_currency"
+
+#. module: account_direct_debit
+#: view:payment.order:account_direct_debit.view_payment_order_form
+msgid "{'invisible': ['|', ('state', '!=', 'draft'), ('payment_order_type', '!=', 'payment')]}"
+msgstr "{'invisible': ['|', ('state', '!=', 'draft'), ('payment_order_type', '!=', 'payment')]}"
+

@@ -27,6 +27,7 @@
             <field name="arch" type="xml">
                 <field name="date_done" position="before">
                     <field name="date_sent"/>
+                     <field name="date_scheduled"/>
                 </field>
             </field>
         </record>

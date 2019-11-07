@@ -18,6 +18,7 @@
         'views/account_payment.xml',
         'views/payment_mode.xml',
         'views/payment_mode_type.xml',
+        'wizard/payment_order_create_view.xml',
         'data/account_payment_term.xml',
         'data/payment_mode_type.xml'
     ],

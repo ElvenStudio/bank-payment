@@ -44,8 +44,11 @@
                 <field name="mode" position="attributes">
                     <attribute name="domain">[('payment_order_type', '=', payment_order_type)]</attribute>
                 </field>
+
+                <xpath expr="//tree[@string='Payment Line']/field[@name='amount_currency']" position="attributes">
+                    <attribute name="sum">total_amount_currency</attribute>
+                </xpath>
             </field>
         </record>
-
     </data>
 </openerp>

@@ -34,18 +34,34 @@ msgid "A generic banking mandate"
 msgstr ""
 
 #. module: account_banking_mandate
+#: field:bank.payment.line,amount_currency:0
+msgid "Amount"
+msgstr ""
+
+#. module: account_banking_mandate
 #: view:account.banking.mandate:account_banking_mandate.view_mandate_form
 msgid "Back to Draft"
 msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,partner_bank_id:0
+#: field:bank.payment.line,bank_id:0
 msgid "Bank Account"
 msgstr ""
 
 #. module: account_banking_mandate
 #: model:ir.model,name:account_banking_mandate.model_res_partner_bank
 msgid "Bank Accounts"
+msgstr ""
+
+#. module: account_banking_mandate
+#: field:payment.line,bank_line_id:0
+msgid "Bank Payment Line"
+msgstr ""
+
+#. module: account_banking_mandate
+#: field:bank.payment.line,name:0
+msgid "Bank Payment Line Ref"
 msgstr ""
 
 #. module: account_banking_mandate
@@ -114,18 +130,36 @@ msgid "Cannot validate the mandate '%s' without a date of signature."
 msgstr ""
 
 #. module: account_banking_mandate
+#: field:bank.payment.line,communication:0
+msgid "Communication"
+msgstr ""
+
+#. module: account_banking_mandate
+#: field:bank.payment.line,state:0
+msgid "Communication Type"
+msgstr ""
+
+#. module: account_banking_mandate
 #: field:account.banking.mandate,company_id:0
+#: field:bank.payment.line,company_id:0
 msgid "Company"
 msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,create_uid:0
+#: field:bank.payment.line,create_uid:0
 msgid "Created by"
 msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,create_date:0
+#: field:bank.payment.line,create_date:0
 msgid "Created on"
+msgstr ""
+
+#. module: account_banking_mandate
+#: field:bank.payment.line,currency:0
+msgid "Currency"
 msgstr ""
 
 #. module: account_banking_mandate
@@ -164,6 +198,7 @@ msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,display_name:0
+#: field:bank.payment.line,display_name:0
 msgid "Display Name"
 msgstr ""
 
@@ -200,12 +235,18 @@ msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,id:0
+#: field:bank.payment.line,id:0
 msgid "ID"
 msgstr ""
 
 #. module: account_banking_mandate
 #: help:account.banking.mandate,message_unread:0
 msgid "If checked new messages require your attention."
+msgstr ""
+
+#. module: account_banking_mandate
+#: help:bank.payment.line,date:0
+msgid "If no payment date is specified, the bank will treat this payment line directly"
 msgstr ""
 
 #. module: account_banking_mandate
@@ -225,16 +266,19 @@ msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,__last_update:0
+#: field:bank.payment.line,__last_update:0
 msgid "Last Modified on"
 msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,write_uid:0
+#: field:bank.payment.line,write_uid:0
 msgid "Last Updated by"
 msgstr ""
 
 #. module: account_banking_mandate
 #: field:account.banking.mandate,write_date:0
+#: field:bank.payment.line,write_date:0
 msgid "Last Updated on"
 msgstr ""
 
@@ -298,13 +342,29 @@ msgid "Only valid mandates can be used in a payment line. A cancelled mandate is
 msgstr ""
 
 #. module: account_banking_mandate
+#: field:bank.payment.line,order_id:0
+msgid "Order"
+msgstr ""
+
+#. module: account_banking_mandate
 #: field:account.banking.mandate,partner_id:0
+#: field:bank.payment.line,partner_id:0
 msgid "Partner"
+msgstr ""
+
+#. module: account_banking_mandate
+#: field:bank.payment.line,date:0
+msgid "Payment Date"
 msgstr ""
 
 #. module: account_banking_mandate
 #: model:ir.model,name:account_banking_mandate.model_payment_line
 msgid "Payment Line"
+msgstr ""
+
+#. module: account_banking_mandate
+#: field:bank.payment.line,payment_line_ids:0
+msgid "Payment Lines"
 msgstr ""
 
 #. module: account_banking_mandate
@@ -360,6 +420,11 @@ msgid "Summary"
 msgstr ""
 
 #. module: account_banking_mandate
+#: help:bank.payment.line,partner_id:0
+msgid "The Ordering Customer"
+msgstr ""
+
+#. module: account_banking_mandate
 #: code:addons/account_banking_mandate/models/account_banking_mandate.py:83
 #, python-format
 msgid "The date of signature of mandate '%s' is in the future !"
@@ -395,6 +460,16 @@ msgstr ""
 #. module: account_banking_mandate
 #: view:account.banking.mandate:account_banking_mandate.view_mandate_form
 msgid "Validate"
+msgstr ""
+
+#. module: account_banking_mandate
+#: field:account.banking.mandate,website_message_ids:0
+msgid "Website Messages"
+msgstr ""
+
+#. module: account_banking_mandate
+#: help:account.banking.mandate,website_message_ids:0
+msgid "Website communication history"
 msgstr ""
 
 #. module: account_banking_mandate

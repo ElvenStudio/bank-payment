@@ -29,6 +29,7 @@
             <field name="partner_bank_id" position="after">
                 <field name="payment_mode_id"
                        domain="[('sale_ok', '=', True)]"
+                       attrs="{'readonly': [('state', '!=', 'draft')]}"
                        widget="selection"/>
             </field>
         </field>
@@ -43,6 +44,7 @@
             <field name="partner_bank_id" position="after">
                 <field name="payment_mode_id"
                        domain="[('purchase_ok', '=', True)]"
+                       attrs="{'readonly': [('state', '!=', 'draft')]}"
                        widget="selection"/>
             </field>
         </field>

@@ -2,17 +2,24 @@
 # © 2013 Therp BV (<http://therp.nl>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from openerp import models, api
+from openerp import models, fields, api
 
 
 class PaymentOrderCreate(models.TransientModel):
     _inherit = 'payment.order.create'
+
+    find_all_receivable_lines = fields.Boolean(
+        default=False
+    )
 
     @api.multi
     def extend_payment_order_domain(self, payment_order, domain):
         super(PaymentOrderCreate, self).extend_payment_order_domain(
             payment_order, domain)
         if payment_order.payment_order_type == 'debit':
+            if not self.find_all_receivable_lines:
+                domain += [('invoice.payment_mode_id', '=', payment_order.mode.id)]
+
             # For receivables, propose all unreconciled debit lines,
             # including partially reconciled ones.
             # If they are partially reconciled with a customer refund,

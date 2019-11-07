@@ -23,7 +23,7 @@ msgstr ""
 #: code:addons/account_banking_payment_transfer/model/account_payment.py:140
 #, python-format
 msgid "%s bank line %s"
-msgstr ""
+msgstr "%s linea bancaria %s"
 
 #. module: account_banking_payment_transfer
 #: code:addons/account_banking_payment_transfer/model/account_payment.py:174
@@ -45,8 +45,7 @@ msgstr "Linea ordine pagamento"
 #: code:addons/account_banking_payment_transfer/model/bank_payment_line.py:76
 #, python-format
 msgid "Can not reconcile: no move line for payment line %s of partner '%s'."
-msgstr ""
-"Non puoi riconciliare: nessun linea per il pagamento %s del partner '%s'."
+msgstr "Non puoi riconciliare: nessuna linea per il pagamento %s del partner '%s'."
 
 #. module: account_banking_payment_transfer
 #: code:addons/account_banking_payment_transfer/model/account_payment.py:197
@@ -55,14 +54,13 @@ msgid ""
 "Cannot generate the transfer move when the currency of the payment (%s) is "
 "not the same as the currency of the company (%s). This is not supported for "
 "the moment."
-msgstr ""
-"Non è possibile creare un ordine di pagamento quando la valuta del pagamento "
-"(%s) non è la stessa della company (%s). Al momento non è supportato."
+msgstr "Non è possibile creare un ordine di pagamento quando la valuta del pagamento (%s) "
+"non è la stessa dell'azienda (%s). Al momento non è supportato."
 
 #. module: account_banking_payment_transfer
 #: help:bank.payment.line,transfer_move_line_id:0
 msgid "Counterpart move line on the transfer account"
-msgstr ""
+msgstr "Linea di controparte sul conto di trasferimento"
 
 #. module: account_banking_payment_transfer
 #: field:payment.line,date_done:0
@@ -73,7 +71,7 @@ msgstr "Data confermata"
 #: code:addons/account_banking_payment_transfer/model/account_payment.py:233
 #, python-format
 msgid "Direct debit"
-msgstr "Direct debit"
+msgstr "Addebito diretto"
 
 #. module: account_banking_payment_transfer
 #: code:addons/account_banking_payment_transfer/model/bank_payment_line.py:90
@@ -82,12 +80,15 @@ msgid ""
 "For partner '%s', the account of the account move line to pay (%s) is "
 "different from the account of of the transit move line (%s)."
 msgstr ""
+"Per il partnerr '%s', il conto della voce sezionale da pagare (%s) è "
+"differente dal conto della linea di trasferimento (%s)."
 
 #. module: account_banking_payment_transfer
 #: help:payment.mode,transfer_journal_id:0
 msgid ""
 "Journal to write payment entries when confirming a debit order of this mode"
 msgstr ""
+"Il sezionale per registrare i pagamenti quando si conferma un ordine di debito di questa modalità"
 
 #. module: account_banking_payment_transfer
 #: field:payment.line,msg:0
@@ -103,23 +104,23 @@ msgstr "La riga '%s' del partner '%s' è già stata riconciliata"
 #. module: account_banking_payment_transfer
 #: help:bank.payment.line,transit_move_line_id:0
 msgid "Move line through which the payment/debit order pays the invoice"
-msgstr ""
+msgstr "Voce sezionale tramite la quale il pagamento/ordine di debito paga la fattura."
 
 #. module: account_banking_payment_transfer
 #: selection:payment.mode,transfer_move_option:0
 msgid "One move per payment date"
-msgstr ""
+msgstr "Una voce per data di pagamento"
 
 #. module: account_banking_payment_transfer
 #: selection:payment.mode,transfer_move_option:0
 msgid "One move per payment line"
-msgstr ""
+msgstr "Una voce per linea di pagamento"
 
 #. module: account_banking_payment_transfer
 #: code:addons/account_banking_payment_transfer/model/account_payment.py:276
 #, python-format
 msgid "Partial Reconcile Moves Line"
-msgstr ""
+msgstr "Voci Parzialmente Riconciliate"
 
 #. module: account_banking_payment_transfer
 #: field:payment.order,partial_reconcile_count:0
@@ -132,6 +133,8 @@ msgid ""
 "Pay off lines in sent orders with a move on this account. You can only "
 "select accounts of type regular that are marked for reconciliation"
 msgstr ""
+"Linee di saldo in ordini inviati con voci in questo conto. Puoi solo "
+"selezionare conto di tipo regolare che sono marcati per la riconciliazione."
 
 #. module: account_banking_payment_transfer
 #: code:addons/account_banking_payment_transfer/model/account_payment.py:232
@@ -167,24 +170,24 @@ msgstr "Conto di trasferimento"
 #. module: account_banking_payment_transfer
 #: field:payment.mode,transfer_journal_id:0
 msgid "Transfer journal"
-msgstr ""
+msgstr "Sezionale di Trasferimento"
 
 #. module: account_banking_payment_transfer
 #: field:bank.payment.line,transit_move_line_id:0
 msgid "Transfer move line"
-msgstr ""
+msgstr "Voci sezionale di trasferimento"
 
 #. module: account_banking_payment_transfer
 #: field:bank.payment.line,transfer_move_line_id:0
 msgid "Transfer move line counterpart"
-msgstr ""
+msgstr "Voci sezionale per la contropartita"
 
 #. module: account_banking_payment_transfer
 #: field:payment.mode,transfer_move_option:0
 msgid "Transfer move option"
-msgstr ""
+msgstr "Opzioni di trasferimento"
 
 #. module: account_banking_payment_transfer
 #: view:payment.mode:account_banking_payment_transfer.view_payment_mode_form_inherit
 msgid "Transfer move settings"
-msgstr ""
+msgstr "Impostazioni di trasferimento"
